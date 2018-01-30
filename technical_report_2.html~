@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type"
+	  content="text/html; charset=utf-8" />
+    <title>Synopsis of Novel(s)</title>
+  </head>
+  <body>
+
+
+    <div style="color:#000000;text-align:center;"><h1>CPS 530: Web System Development, Lab 01</h1></div>
+    <div style="color:#000000;text-align:center;"><h1>Name: Tenzing Lama, SID: 500335577</h1></div>
+
+    <hr/>
+
+    <a rel="noopener" href="#bot" style="color:#000000;">Go to bottom</a>
+
+    <h3><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fscs.ryerson.ca%2F~tlama%2Flab02.html">Html Validation Lab 02</a></h3>
+    <h3><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fscs.ryerson.ca%2F~tlama%2Ftechnical_report_2.html">Html  Validation Technical Report 2</a></h3>
+    <h3><a href="http://scs.ryerson.ca/~tlama/novel_index.html">Main Page</a></h3>
+
+    <hr/>
+
+
+    <h2>What is your element CSS class?</h2>
+    <ul>
+      <li>p.center</li>
+      <li>p.large</li>
+    </ul>
+
+    <h2>What is your global CSS class?</h2>
+    <ol>
+      <li>rcorners</li>
+      <li>vs</li>
+    </ol>
+
+    <h2>What are your HTML5-only tags?</h2>
+    <ol>
+      <li>Figure and Figcaption</li>
+      <li>Details</li>
+    </ol>
+
+    <h2>What are your CSS3-only features?</h2>
+    <ul>
+      <li>Border-Radius property, used below &quot;Details&quot; in the webpage.</li>
+      <li>Multiple Background images within &quot;vs global class&quot;.</li>
+    </ul>
+
+    <hr/>
+
+    <h2>Did you use the same protection method? If no, what did you use this time?</h2>
+    <ul>
+      <li>Yes, same protection as lab 01, although I am not able to host now as I had trouble uploading files remotely. I will tyr to go to school directly on Monday/Tuesday to copy the files to the folders..</li>
+    </ul>
+
+    <hr/>
+
+    <hr/>
+
+    <h2>How long did you spend on this lab?</h2>
+    <ul>
+      <li>3 hours.</li>
+    </ul>
+
+    <hr/>
+
+    <a rel="noopener" href="#top" style="color:#000000;">Go to top</a>
+
+
+    <script type="text/javascript" src="/d2l/common/math/MathML.js?v=10.7.5.8143-61 "></script><script type="text/javascript">document.addEventListener('DOMContentLoaded', function() { D2LMathML.DesktopInit('https://s.brightspace.com/lib/mathjax/2.6.1/MathJax.js?config=MML_HTMLorMML','https://s.brightspace.com/lib/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'); });</script></body></html>

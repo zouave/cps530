@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type"
+        content="text/html; charset=utf-8" />
+<title>ASP Query String</title>
+
+<style>
+body {
+        background-color: #bdb76b;
+}
+
+form {
+                text-align: center;
+}
+
+input[type=submit] {
+        width: 25%;
+        background-color: #6b8e23;
+        color: #eee8aa;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+
+}
+
+input[type=reset] {
+        width: 25%;
+        background-color: #ff0000;
+        color: #eee8aa;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+        background-color: #808000;
+}
+input[type=reset]:hover {
+        background-color: #FF0303;
+}
+</style>
+</head>
+
+<body>
+
+<p>Select Background Color and Text Color:</p><br>
+<form method="post" action="lab05.2.asp">
+
+        <input type="text" name="bgcolor" value="Background Color">
+		<br>
+		<input type="text" name="txtcolor" value="Text Color">
+		<br><br>
+        <input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+</form>
+
+</body>
+

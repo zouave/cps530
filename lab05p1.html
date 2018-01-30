@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type"
+	content="text/html; charset=utf-8" />
+<title>Choose Multiplcation Table: 3x3-12x12</title>
+
+<style>
+body {
+	background-color: #bdb76b;
+}
+
+form {
+		text-align: center;
+}
+
+input[type=submit] {
+	width: 25%;
+	background-color: #6b8e23;
+	color: #eee8aa;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+	background-color: #808000;
+}
+</style>
+</head>
+
+<body>
+
+<form method="post" action="multiplication.php">
+
+	<select name="table">
+		<option value="3">Multiplcation Table: 3x3</option>
+		<option value="4">Multiplcation Table: 4x4</option>
+		<option value="5">Multiplcation Table: 5x5</option>
+		<option value="6">Multiplcation Table: 6x6</option>
+		<option value="7">Multiplcation Table: 7x7</option>
+		<option value="8">Multiplcation Table: 8x8</option>
+		<option value="9">Multiplcation Table: 9x9</option>
+		<option value="10">Multiplcation Table: 10x10</option>
+		<option value="11">Multiplcation Table: 11x11</option>
+		<option value="12">Multiplcation Table: 12x12</option>
+	</select> <br>
+	
+	<input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

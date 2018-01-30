@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type='text/javascript'>
+
+function formValidator() {
+	var name = document.getElementById('name');
+	var address = document.getElementById('address"');
+	var phone = document.getElementById('phone');
+	
+	msgEmpty = "Don't leave your name blanks.";
+	msgName = "Please enter your name with only letters.";
+	msgPhone = "Please use only numbers and - to write your phone number";
+	msgPhoneFormat = "Phone Number Format: 416-416-1111";
+	
+	notEmpty(name, msgEmpty);
+	isLetter(name, msgName);
+	isNumeric(phone, msgPhone);
+	phoneFormat(phone, msgPhoneFormat);
+	
+
+}
+
+function notEmpty(elem, helperMsg) {
+	if(elem.value.length == 0) {
+		alert(helperMsg);
+		elem.focus();
+		return false;
+	}
+	
+	return true;
+}
+
+function isLetter(elem, helperMsg){
+	var letters = /^[a-zA-Z\s]+$/;
+	if(elem.value.match(letters)){
+		return true;
+	}else{
+		alert(helperMsg);
+		elem.focus();
+		return false;
+	}
+}
+
+function isNumeric(elem, helperMsg){
+	var numericExpression = /^[0-9._-]+$/;
+	if(elem.value.match(numericExpression)){
+		return true;
+	}else{
+		alert(helperMsg);
+		elem.focus();
+		return false;
+	}
+}
+
+function phoneFormat(elem, helperMsg) {
+	var numberArray = elem.value.split("-");
+	
+	if(numberArray[0].length == 3 && numberArray[1].length == 3 && numberArray[2].length == 4) {
+		isNumeric(numberArray[0], helperMsg);
+		isNumeric(numberArray[1], helperMsg);
+		isNumeric(numberArray[2], helperMsg);
+		return true;
+	} else {
+		alert(helperMsg);
+		return false;
+	}	
+	
+}
+
+</script>
+</head>
+<body>
+
+<form onSubmit="return formValidator()">
+  Enter Your Name:<br>
+  <input type="text" id="name" />
+  <br>
+  Address:<br>
+  <input type="text" id="address" />
+  <br>
+  Phone Number:<br>
+  <input type="text" id="phone" />
+  <br>
+  
+  <input type="submit" value="Submit" />
+</form>
+
+</body>
+</html>
+

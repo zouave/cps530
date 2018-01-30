@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>When submitting this form, the result will be opened in a new browser tab:</p>
+
+<form action="cgi-bin/lab04p2.cgi" target="_blank">
+  First name:<br>
+  <input type="text" name="firstname" value="Jon">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Snow">
+  <br>
+  <br>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other<br>
+  <br>
+  <select name="novel">
+    <option value="https://c.tribune.com.pk/2017/03/1370311-gameofthrones-1490934578-478-640x480.jpg">Game of Thrones</option>
+    <option value="http://www.dragonmount.com/forums/ccs_files/images/splash_wot.png">The Wheel of Time</option>
+	<option value="https://i.ytimg.com/vi/8mvDltYMyeg/sddefault.jpg">The Kingkiller Chronicle</option>
+  </select>
+  <br><br>
+  <textarea name="message" rows="10" cols="30">Comment on Novel.</textarea>
+  <br>
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>

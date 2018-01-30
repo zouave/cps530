@@ -1,0 +1,34 @@
+body.lab03 {
+	background-image: url("lab03background.jpg");
+	font-family:verdana,arial,helvetica;
+	color:#336699;
+	font-size:11pt;
+}
+
+body.title {
+	background-image: url("lab03background.jpg");
+	font-family: 'Black Ops One', cursive; 
+	font-size:54px; margin:5% 5% 5% 5%; 
+	color:#003366;
+
+}
+body.menu {
+	background-image: url("menubackground.jpg");
+	font-family: Verdana,Arial,Helvetica,Sans Serif; 
+	font-size:11px; color:#003366; 
+	background-color:#ddeeff; 
+	font-weight:plain; text-align:center;
+}
+
+div.left {
+	
+}
+
+div.right {
+	
+}
+
+p,h1,h3,ol,li,em{
+    font-style: oblique;
+	color: #ffffff;
+}
